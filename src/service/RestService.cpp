@@ -45,11 +45,11 @@ void RestService::start() {
            {
                 "doType": 1,          1 = 水平  2=垂直  3=两值都要
                 "localSource": {
-                    "data": "E:/testdata/pipeline/wxJSPipe.gdb",
-                    "point": "JSPOINT",
-                    "line": "JSLINE",
-                    "lineIdField": "OBJECTID",
-                    "idList": [25148, 25136]
+                    "data": "E:/testdata/pipeline/wxJSPipe.gdb",           文件路径
+                    "point": "JSPOINT",                                    点图层名
+                    "line": "JSLINE",                                      线图层名
+                    "lineIdField": "OBJECTID",                             线图层的objectid字段名
+                    "idList": [25148, 25136]                               要参与计算的实体id列表
                 },
                 "localTarget": {
                     "data": "E:/testdata/pipeline/wxWSPipe.gdb",
